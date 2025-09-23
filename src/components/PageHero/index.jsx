@@ -10,7 +10,7 @@ export default function PageHero(props) {
         // services
         title = "Superior Services"
         description = "Rizzazzle Repairs provides professional installation and repair services that ensure seamless setup, reliable performance, and customized solutions for homes and businesses."
-        image = "/servicesHero.png"
+        image = "/servicesHero.jpg"
     } else if (page === "about") {
         // about
         title = "Empower Your AV Needs"
