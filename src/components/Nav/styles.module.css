@@ -1,0 +1,39 @@
+.navCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.navLogo {
+    margin-left: 70px;
+    height: 100px;
+  width: 200px;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+  color: #000000;
+}
+
+.navContact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+  width: 200px;
+  color: #000000;
+  margin-right: 70px;
+}

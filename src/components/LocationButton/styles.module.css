@@ -1,0 +1,48 @@
+.btnCont {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.btnFront {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: top 0.3s ease, left 0.3s ease;
+    
+}
+.btnCont:hover .btnFront {
+    top: -5px;
+    left: -5px;
+    
+}
+
+.btnBack {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background-color: #292929;
+    transition: top 0.3s ease, left 0.3s ease;
+}
+.btnCont:hover .btnBack {
+    top: 5px;
+    left: 5px;
+    
+}

@@ -1,0 +1,454 @@
+.locationTopSection{
+    height: 80dvh;
+    width: 100%;
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 70px;
+    background-color: #ffffff;
+}
+
+.locationTopSectionLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.locationTopSectionLeft h2{
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.locationTopSectionLeft p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    width: 50%;
+    text-align: center;
+}
+
+.locationTopSectionRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.mapContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    /* overflow: hidden; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.staticMap{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.homeServices {
+    width: 100%;
+    height: 70dvh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  .homeServicesTitle {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .homeServicesTitle h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+  }
+  .homeServicesTitle p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+  }
+  .homeServicesCardsGrid {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr 0.8fr;
+    gap: 20px;
+  }
+  .homeServicesCardTop {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .homeServicesCardBottom {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .homeServicesCardCont {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 101;
+  }
+  .homeServicesCard {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 28px;
+    padding: 20px;
+    z-index: 101;
+    background-color: #D9D9D9;
+    transition: top 0.3s ease, left 0.3s ease;
+  }
+  .homeServicesCardHoverCont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+  .homeServicesCardHoverText {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .homeServicesCardHoverText h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+    text-decoration: underline;
+  }
+  .homeServicesCardIconCont {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .homeServicesCardIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #000000;
+    rotate: 0deg;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    transition: border-radius 0.3s ease, height 0.3s ease, border 0.3s ease, top 0.3s ease, left 0.3s ease, transform 0.3s ease, rotate 0.3s ease;
+  }
+  .homeServicesCardIcon2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #000000;
+    rotate: 0deg;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    transition: border-radius 0.3s ease, width 0.3s ease, border 0.3s ease, top 0.3s ease, left 0.3s ease, transform 0.3s ease, rotate 0.3s ease, height 0.3s ease;
+  }
+  .homeServicesCardIcon3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid #000000;
+    rotate: 0deg;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    transition: 
+    border-radius 0.3s ease, 
+    width 0.3s ease, 
+    border 0.3s ease, 
+    top 0.3s ease, 
+    left 0.3s ease, 
+    transform 0.3s ease, 
+    rotate 0.3s ease, 
+    height 0.3s ease;
+  }
+  .homeServicesCard:hover .homeServicesCardIcon {
+    border-radius: 0px;
+    height: 2px;
+    border: 2px solid #000000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    rotate: 180deg;
+  }
+  .homeServicesCard:hover .homeServicesCardIcon2 {
+    border-radius: 0px;
+    width: 2px;
+    height: 35.36px;
+    border: 2px solid #000000;
+    top: calc(50% - 6px);
+    left: calc(75% + 4px);
+    transform: translate(-50%,0%);
+    rotate: 45deg;
+  }
+    .homeServicesCard:hover .homeServicesCardIcon3 {
+      border-radius: 0px;
+      width: 2px;
+      height: 35.36px;
+      border: 2px solid #000000;
+      top: calc(50% + 6px);
+      left: calc(75% + 4px);
+      transform: translate(-50%,-100%);
+      rotate: -45deg;
+    }
+    .homeServicesCard:hover .homeServicesCardHoverText {
+      opacity: 1;
+    }
+  .homeServicesCard h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+  }
+  .homeServicesCard p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+  }
+  .homeServicesCardBG {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background-color: #7b7b7b;
+    transition: top 0.3s ease, left 0.3s ease;
+  }
+  .homeServicesCardCont:hover .homeServicesCardBG {
+    top: 5px;
+    left: 5px;
+  }
+  .homeServicesCardCont:hover .homeServicesCard {
+    top: -5px;
+    left: -5px;
+  }
+  .homeServicesCardCont:active .homeServicesCardBG {
+    top: 0px;
+    left: 0px;
+  }
+  .homeServicesCardCont:active .homeServicesCard {
+    top: 0px;
+    left: 0px;
+  }
+
+
+.homeExpertise {
+    width: 100%;
+    height: 60dvh;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    position: relative;
+    
+    background-color: #ffffff;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .homeExpertiseHR{
+    width: 100%;
+    height: 1px;
+    position: relative;
+    background-color: #000000;
+  }
+  .homeExpertiseGridCont{
+    padding-top: 70px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-rows: 1.2fr 1fr;
+  }
+  .homeExpertiseTop {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .homeExpertiseTopLeftCont{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .homeExpertiseTopLeft{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .homeExpertiseTopLeft h2{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+    width: 20vw ;
+  }
+  .homeExpertiseTopRight{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 40px;
+  }
+  .homeExpertiseTopRight h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+    width: 350px;
+  }
+  .homeExpertiseTopRight p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+    width: 350px;
+  }
+  .homeExpertiseCardsGrid{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .homeExpertiseCardInner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #D9D9D9;
+    padding-left: 40px;
+    gap: 20px;
+  }
+  .homeExpertiseCardInner h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+  }
+  .homeExpertiseCardInner p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    text-align: left;
+  }
+  .homeExpertiseImages{
+    width: 100%;
+    height: 65dvh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-bottom: 70px;
+  }
+  .homeExpertiseImagesGrid{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  .homeExpertiseImagesGridItem{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .homeExpertiseImagesCenter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+    height: 60%;
+  }

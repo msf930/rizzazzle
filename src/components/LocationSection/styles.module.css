@@ -1,0 +1,104 @@
+
+.locationSectionCont{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutItem{
+    margin-top: 70px;
+    width: 100%;
+    height: 150px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.aboutItemContLeft{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.aboutItemTitle{
+    width: 20vw;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.aboutItemTitle h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+}
+.aboutItemText h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+}
+.aboutLocationCont{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.aboutLocationHr{
+    width: 100%;
+    height: 1px;
+    background-color: #000000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.aboutLocationGrid{
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+}
+.aboutLocationItem{
+    width: fit-content;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.aboutLocationItem:hover hr{
+    width: 100%;
+}
+.aboutLocationItem hr{
+    width: 0%;
+    height: 1px;
+    background-color: #000000;
+    
+    transition: width 0.2s ease-in-out;
+}
+.aboutLocationItem p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    text-align: left;
+}
