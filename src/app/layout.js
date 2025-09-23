@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ReactLenis from "lenis/react";
+import MicrosoftClarity from "@/metrics/MicrosoftClarity";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,6 +25,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <MicrosoftClarity />
       </body>
       </ReactLenis>
     </html>
