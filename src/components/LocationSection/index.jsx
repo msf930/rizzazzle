@@ -21,75 +21,75 @@ export default function LocationSection() {
             <div className={styles.aboutLocationCont}>
                 <div className={styles.aboutLocationGrid}>
                     <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Denver" url="denver" />
+                        <LocationButton page="Denver" url="location/denver" />
                         
                     </div>
                     <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Boulder" url="boulder" />
+                        <LocationButton page="Boulder" url="location/boulder" />
                         
                     </div>
                     <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Estes Park" url="estes-park" />
-                        
-                    </div>
-                </div>
-                <hr className={styles.aboutLocationHr} />
-                <div className={styles.aboutLocationGrid}>
-                    <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Aurora" url="aurora" />
-                        
-                    </div>
-                    <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Golden" url="golden" />
-                        
-                    </div>
-                    <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Fort Collins" url="fort-collins" />
+                        <LocationButton page="Estes Park" url="location/estes-park" />
                         
                     </div>
                 </div>
                 <hr className={styles.aboutLocationHr} />
                 <div className={styles.aboutLocationGrid}>
                     <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Arvada" url="arvada" />
+                        <LocationButton page="Aurora" url="location/aurora" />
                         
                     </div>
                     <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Broomfield" url="broomfield" />
+                        <LocationButton page="Golden" url="location/golden" />
                         
                     </div>
                     <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Castle Rock" url="castle-rock" />
-                        
-                    </div>
-                </div>
-                <hr className={styles.aboutLocationHr} />
-                <div className={styles.aboutLocationGrid}>
-                    <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Lakewood" url="lakewood" />
-                        
-                    </div>
-                    <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Littleton" url="littleton" />
-                        
-                    </div>
-                    <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Colorado Springs" url="colorado-springs" />
+                        <LocationButton page="Fort Collins" url="location/fort-collins" />
                         
                     </div>
                 </div>
                 <hr className={styles.aboutLocationHr} />
                 <div className={styles.aboutLocationGrid}>
                     <div className={styles.aboutLocationItem}>
-                            <LocationButton page="Centennial" url="centennial" />
+                        <LocationButton page="Arvada" url="location/arvada" />
                         
                     </div>
                     <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Evergreen" url="evergreen" />
+                        <LocationButton page="Broomfield" url="location/broomfield" />
                         
                     </div>
                     <div className={styles.aboutLocationItem}>
-                        <LocationButton page="Out of state" url="out-of-state" />
+                        <LocationButton page="Castle Rock" url="location/castle-rock" />
+                        
+                    </div>
+                </div>
+                <hr className={styles.aboutLocationHr} />
+                <div className={styles.aboutLocationGrid}>
+                    <div className={styles.aboutLocationItem}>
+                        <LocationButton page="Lakewood" url="location/lakewood" />
+                        
+                    </div>
+                    <div className={styles.aboutLocationItem}>
+                        <LocationButton page="Littleton" url="location/littleton" />
+                        
+                    </div>
+                    <div className={styles.aboutLocationItem}>
+                        <LocationButton page="Colorado Springs" url="location/colorado-springs" />
+                        
+                    </div>
+                </div>
+                <hr className={styles.aboutLocationHr} />
+                <div className={styles.aboutLocationGrid}>
+                    <div className={styles.aboutLocationItem}>
+                            <LocationButton page="Centennial" url="location/centennial" />
+                        
+                    </div>
+                    <div className={styles.aboutLocationItem}>
+                        <LocationButton page="Evergreen" url="location/evergreen" />
+                        
+                    </div>
+                    <div className={styles.aboutLocationItem}>
+                        <LocationButton page="Out of state" url="location/out-of-state" />
                         
                     </div>
                 </div>

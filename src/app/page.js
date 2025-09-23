@@ -6,6 +6,7 @@ import ContactSection from "@/components/ContactSection";
 import ClientCarousel from "@/components/ClientCarousel";
 import Testimonials from "@/components/Testimonials";
 import Footer from "@/components/Footer";
+import TopSolutions from "@/components/TopSolutions";
 export default function Home() {
   return (
     <div className="homeCont">
@@ -23,104 +24,7 @@ export default function Home() {
         </div>
       </div>
       {/* Services */}
-      <div className="homeServices">
-        <div className="homeServicesTitle">
-          <h2>Top Solutions</h2>
-          <p>Repairs, Installs & Maintenance</p>
-        </div>
-        <div className="homeServicesCardsGrid">
-          <div className="homeServicesCardTop">
-            <Link href="/services#digital-signage-and-tv-mounting" className="homeServicesCardCont">
-              <div className="homeServicesCard">
-                <div className="homeServicesCardHoverCont">
-                  <div className="homeServicesCardIconCont">
-                    <div className="homeServicesCardIcon"></div>
-                    <div className="homeServicesCardIcon2"></div>
-                    <div className="homeServicesCardIcon3"></div>
-                  </div>
-                  <div className="homeServicesCardHoverText">
-                    <h3>Learn More</h3>
-                  </div>
-                </div>
-                <h3>Digital Signage or TV Mounting</h3>
-                <p>Tailored signage and TV solutions for homes and businesses</p>
-              </div>
-              <div className="homeServicesCardBG"></div>
-            </Link>
-            <Link href="/services#security-system-installation" className="homeServicesCardCont">
-              <div className="homeServicesCard">
-                <div className="homeServicesCardHoverCont">
-                  <div className="homeServicesCardIconCont">
-                    <div className="homeServicesCardIcon"></div>
-                    <div className="homeServicesCardIcon2"></div>
-                    <div className="homeServicesCardIcon3"></div>
-                  </div>
-                  <div className="homeServicesCardHoverText">
-                    <h3>Learn More</h3>
-                  </div>
-                </div>
-                <h3>Security System Installation</h3>
-                <p>Expert installation of digital and analog surveillance systems for homes and businesses.</p>
-
-              </div>
-              <div className="homeServicesCardBG"></div>
-            </Link>
-            <Link href="/services#repairs-and-troubleshooting" className="homeServicesCardCont">
-              <div className="homeServicesCard">
-                <div className="homeServicesCardHoverCont">
-                  <div className="homeServicesCardIconCont">
-                    <div className="homeServicesCardIcon"></div>
-                    <div className="homeServicesCardIcon2"></div>
-                    <div className="homeServicesCardIcon3"></div>
-                  </div>
-                  <div className="homeServicesCardHoverText">
-                    <h3>Learn More</h3>
-                  </div>
-                </div>
-                <h3>Repairs and Troubleshooting</h3>
-                <p>From screen glitches to camera outages, we provide reliable troubleshooting support</p>
-              </div>
-              <div className="homeServicesCardBG"></div>
-            </Link>
-          </div>
-          <div className="homeServicesCardBottom">
-            <Link href="/services#routine-maintenance" className="homeServicesCardCont">
-              <div className="homeServicesCard">
-              <div className="homeServicesCardHoverCont">
-                  <div className="homeServicesCardIconCont">
-                    <div className="homeServicesCardIcon"></div>
-                    <div className="homeServicesCardIcon2"></div>
-                    <div className="homeServicesCardIcon3"></div>
-                  </div>
-                  <div className="homeServicesCardHoverText">
-                    <h3>Learn More</h3>
-                  </div>
-                </div>
-                <h3>Routine Maintenance</h3>
-                <p>We provide regular maintenance for clubhouses, offices, and pool areas to keep your community in top condition.</p>
-              </div>
-              <div className="homeServicesCardBG"></div>
-            </Link>
-            <Link href="/services#something-else" className="homeServicesCardCont">
-              <div className="homeServicesCard">
-              <div className="homeServicesCardHoverCont">
-                  <div className="homeServicesCardIconCont">
-                    <div className="homeServicesCardIcon"></div>
-                    <div className="homeServicesCardIcon2"></div>
-                    <div className="homeServicesCardIcon3"></div>
-                  </div>
-                  <div className="homeServicesCardHoverText">
-                    <h3>Learn More</h3>
-                  </div>
-                </div>
-                <h3>Something Else?</h3>
-                <p>Don&apos;t see the service you need? Contact us with your custom request. We&apos;re flexible and experienced with special projects.</p>
-              </div>
-              <div className="homeServicesCardBG"></div>
-            </Link>
-          </div>
-        </div>
-      </div>
+      <TopSolutions />
       {/* Contact */}
       <ContactSection />
       {/* Expertise */}

@@ -4,6 +4,7 @@ import styles from "./styles.module.css";
 import PageHero from "@/components/PageHero";
 import Image from "next/image";
 import ContactSection from "@/components/ContactSection";
+import LocationButton from "@/components/LocationButton";
 
 
 
@@ -46,6 +47,9 @@ export default function Services() {
                     <div className={styles.servicesItemText}>
                         <p>We provide professional security system installation services that ensure reliable protection, seamless integration, and peace of mind for your property.</p>
                     </div>
+                </div>
+                <div className={styles.servicesItemButton}>
+                    <LocationButton page="See More Security" url="security" />
                 </div>
                 <div className={styles.servicesItemContent}>
                     <p>Business and home services</p>

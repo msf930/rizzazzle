@@ -4,7 +4,7 @@ export default function LocationButton({ page, url }) {
     
     return (
         <div className={styles.btnCont}>
-            <a href={`location/${url}`} className={styles.btnFront}>{page}</a>
+            <a href={`${url}`} className={styles.btnFront}>{page}</a>
             <div className={styles.btnBack}></div>
         </div>
     );
