@@ -62,7 +62,7 @@ export default function Contact() {
             </div>
             <div className={styles.contactItemSpacer}></div>
             <ContactForm />
-            <ContactSection />
+            
             <Footer />
         </div>
     );
