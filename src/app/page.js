@@ -13,7 +13,7 @@ export default function Home() {
       {/* Hero */}
       <div className="homeHero">
         <div className="homeHeroImageCont">
-          <Image src="/homeHero.jpg" alt="homeHero" fill objectFit="cover" />
+          <Image src="/homeHero.png" alt="homeHero" fill objectFit="cover" />
         </div>
         <div className="homeHeroTextCont">
           <h1>Rizzazzle Repairs</h1>
