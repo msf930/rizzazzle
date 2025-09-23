@@ -21,7 +21,7 @@ export default function Services() {
                         <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                     </div>
                     <div className={styles.servicesItemText}>
-                        <p>We certainly appreciate all of the extra effort that went into this install! Plus I appreciate your download of where things are and what steps we need to take next.</p>
+                        <p>Digital signage and TV mounting provide sleek, professional displays for sharing information, promotions, or entertainment, with securely installed screens tailored to your space.</p>
                     </div>
                 </div>
 
