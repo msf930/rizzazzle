@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <div className="homeServicesCardsGrid">
           <div className="homeServicesCardTop">
-            <Link href="/services" className="homeServicesCardCont">
+            <Link href="/services#digital-signage-and-tv-mounting" className="homeServicesCardCont">
               <div className="homeServicesCard">
                 <div className="homeServicesCardHoverCont">
                   <div className="homeServicesCardIconCont">
@@ -47,7 +47,7 @@ export default function Home() {
               </div>
               <div className="homeServicesCardBG"></div>
             </Link>
-            <Link href="/services" className="homeServicesCardCont">
+            <Link href="/services#security-system-installation" className="homeServicesCardCont">
               <div className="homeServicesCard">
                 <div className="homeServicesCardHoverCont">
                   <div className="homeServicesCardIconCont">
@@ -65,7 +65,7 @@ export default function Home() {
               </div>
               <div className="homeServicesCardBG"></div>
             </Link>
-            <Link href="/services" className="homeServicesCardCont">
+            <Link href="/services#repairs-and-troubleshooting" className="homeServicesCardCont">
               <div className="homeServicesCard">
                 <div className="homeServicesCardHoverCont">
                   <div className="homeServicesCardIconCont">
@@ -84,7 +84,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="homeServicesCardBottom">
-            <Link href="/services" className="homeServicesCardCont">
+            <Link href="/services#routine-maintenance" className="homeServicesCardCont">
               <div className="homeServicesCard">
               <div className="homeServicesCardHoverCont">
                   <div className="homeServicesCardIconCont">
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
               <div className="homeServicesCardBG"></div>
             </Link>
-            <Link href="/services" className="homeServicesCardCont">
+            <Link href="/services#something-else" className="homeServicesCardCont">
               <div className="homeServicesCard">
               <div className="homeServicesCardHoverCont">
                   <div className="homeServicesCardIconCont">

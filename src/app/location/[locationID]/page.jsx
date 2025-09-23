@@ -58,7 +58,7 @@ export default async function LocationPage({ params }) {
                 </div>
                 <div className={styles.homeServicesCardsGrid}>
                     <div className={styles.homeServicesCardTop}>
-                        <Link href="/services" className={styles.homeServicesCardCont}>
+                        <Link href="/services#digital-signage-and-tv-mounting" className={styles.homeServicesCardCont}>
                             <div className={styles.homeServicesCard}>
                                 <div className={styles.homeServicesCardHoverCont}>
                                     <div className={styles.homeServicesCardIconCont}>
@@ -75,7 +75,7 @@ export default async function LocationPage({ params }) {
                             </div>
                             <div className={styles.homeServicesCardBG}></div>
                         </Link>
-                        <Link href="/services" className={styles.homeServicesCardCont}>
+                        <Link href="/services#security-system-installation" className={styles.homeServicesCardCont}>
                             <div className={styles.homeServicesCard}>
                                 <div className={styles.homeServicesCardHoverCont}>
                                     <div className={styles.homeServicesCardIconCont}>
@@ -93,7 +93,7 @@ export default async function LocationPage({ params }) {
                             </div>
                             <div className={styles.homeServicesCardBG}></div>
                         </Link>
-                        <Link href="/services" className={styles.homeServicesCardCont}>
+                        <Link href="/services#repairs-and-troubleshooting" className={styles.homeServicesCardCont}>
                             <div className={styles.homeServicesCard}>
                                 <div className={styles.homeServicesCardHoverCont}>
                                     <div className={styles.homeServicesCardIconCont}>
@@ -112,7 +112,7 @@ export default async function LocationPage({ params }) {
                         </Link>
                     </div>
                     <div className={styles.homeServicesCardBottom}>
-                        <Link href="/services" className={styles.homeServicesCardCont}>
+                        <Link href="/services#routine-maintenance" className={styles.homeServicesCardCont}>
                             <div className={styles.homeServicesCard}>
                                 <div className={styles.homeServicesCardHoverCont}>
                                     <div className={styles.homeServicesCardIconCont}>
@@ -129,7 +129,7 @@ export default async function LocationPage({ params }) {
                             </div>
                             <div className={styles.homeServicesCardBG}></div>
                         </Link>
-                        <Link href="/services" className={styles.homeServicesCardCont}>
+                        <Link href="/services#something-else" className={styles.homeServicesCardCont}>
                             <div className={styles.homeServicesCard}>
                                 <div className={styles.homeServicesCardHoverCont}>
                                     <div className={styles.homeServicesCardIconCont}>

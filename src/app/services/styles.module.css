@@ -8,7 +8,9 @@
     background-color: #ffffff;
 }
 
-
+.servicesItemCont{
+    scroll-margin-top: 100px;
+}
 .servicesItem{
     margin-top: 70px;
     width: 100%;
@@ -20,6 +22,7 @@
     justify-content: flex-start;
     padding-left: 70px;
     padding-right: 70px;
+    
 }
 .servicesItemContLeft{
     width: 100%;
