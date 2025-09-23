@@ -23,8 +23,8 @@ export default function ContactForm() {
         setResult("Sending....");
         const formData = new FormData(event.target);
 
-        // formData.append("access_key", "91c99332-14e8-480a-abd9-c270b0e5cb95");
-        formData.append("access_key", "78b559a9-35cc-4bde-bb30-7fcacfc54cdf");
+        formData.append("access_key", "91c99332-14e8-480a-abd9-c270b0e5cb95");
+        // formData.append("access_key", "78b559a9-35cc-4bde-bb30-7fcacfc54cdf");
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
