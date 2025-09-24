@@ -55,6 +55,12 @@
     font-weight: 400;
     color: #000000;
     text-align: left;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+.contactItemText a:hover{
+    
+    text-decoration: underline;
 }
 .contactItemSpacer{
     width: 100%;
