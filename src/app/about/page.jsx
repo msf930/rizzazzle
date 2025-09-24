@@ -16,11 +16,11 @@ export default function About() {
                     <div className={styles.aboutItemTitle}>
                         <h3>Why Rizzazzle Repairs?</h3>
 
-                    </div>
                     <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    </div>
                 </div>
                 <div className={styles.aboutItemText}>
-                    <p>When it comes to AV installation services, Rizzazzle Repairs is your reliable partner. Our team is committed to delivering top-notch solutions, ensuring your AV needs are met with precision and expertise. We take pride in our work and strive to exceed your expectations.</p>
+                    <p>When it comes to audio visual installation services, Rizzazzle Repairs is your reliable partner. Our team is committed to delivering top-notch solutions, ensuring your service requierments are met with precision and expertise. We take pride in our work and strive to exceed your expectations.</p>
                 </div>
             </div>
             <div className={styles.aboutValueItemCont}>
@@ -29,7 +29,7 @@ export default function About() {
                         <Image src="/wreath.png" alt="wreath" width={150} height={150} />
                     </div>
                     <div className={styles.aboutValueItemText}>
-                        <h3>CERTIFIED <br /> INSTALLERS</h3>
+                        <h3>PROFESSIONAL <br /> INSTALLERS</h3>
                     </div>
                 </div>
                 <div className={styles.aboutValueItem}>
@@ -37,7 +37,7 @@ export default function About() {
                         <Image src="/wreath.png" alt="wreath" width={150} height={150} />
                     </div>
                     <div className={styles.aboutValueItemText}>
-                        <h3>EXPERTISE IN <br /> AV OPTIMIZATION</h3>
+                        <h3>EXPERTISE IN <br /> AUDIO VISUAL <br /> OPTIMIZATION</h3>
                     </div>
                 </div>
                 <div className={styles.aboutValueItem}>

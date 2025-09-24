@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function ContactButton() {
     return (
         <div className={styles.btnCont}>
-            <Link href="/contact" className={styles.btnFront}>Contact Us</Link>
+            <Link href="/contact#contact-form" className={styles.btnFront}>Contact Us</Link>
             <div className={styles.btnBack}></div>
         </div>
     );

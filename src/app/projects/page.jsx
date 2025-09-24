@@ -53,6 +53,53 @@ export default function Projects() {
                 <div className={styles.projectsItemTextCont}>
                     <div className={styles.projectsItemContLeft}>
                         <div className={styles.projectsItemTitle}>
+                            <h3>Touch Screens</h3>
+                            <p>TV Installation</p>
+                        </div>
+                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    </div>
+                    <div className={styles.projectsItemText}>
+                        <p>A small sampling of the dozens of large format touch screen installations we&apos;ve accomplished. Each screen generally weighing 80lbs+ installed seamlessly to finish the look of any space</p>
+                    </div>
+                </div>
+                <div className={styles.projectsItemImageCont}>
+                    <div className={styles.projectsItemGrid}>
+                        <div className={styles.projectsItemGridItem}>
+                        </div>
+                        <div className={styles.projectsItemGridItem}>
+                            <Image src="/projects/engrain/1.jpg" alt="engrain1" fill objectFit="cover" />
+                        </div>
+                        <div className={styles.projectsItemGridItem}>
+                            <Image src="/projects/engrain/2.jpg" alt="engrain2" fill objectFit="cover" />
+                        </div>
+                    </div>
+                    <div className={styles.projectsItemGrid}>
+                        <div className={styles.projectsItemGridItem}>
+                            <Image src="/projects/engrain/3.jpg" alt="engrain3" fill objectFit="cover" />
+                        </div>
+                        <div className={styles.projectsItemGridItem}>
+                            <Image src="/projects/engrain/4.jpg" alt="engrain4" fill objectFit="cover" />
+                        </div>
+                        <div className={styles.projectsItemGridItem}>
+                        </div>
+                    </div>
+                    <div className={styles.projectsItemGrid}>
+                        <div className={styles.projectsItemGridItem}>
+                        </div>
+                        <div className={styles.projectsItemGridItem}>
+                            <Image src="/projects/engrain/5.jpg" alt="engrain5" fill objectFit="cover" />
+                        </div>
+                        <div className={styles.projectsItemGridItem}>
+                            <Image src="/projects/engrain/6.jpg" alt="engrain6" fill objectFit="cover" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className={styles.projectsItem}>
+                <hr className={styles.projectsItemSeparator} />
+                <div className={styles.projectsItemTextCont}>
+                    <div className={styles.projectsItemContLeft}>
+                        <div className={styles.projectsItemTitle}>
                             <h3>McDonalds at Denver Airport</h3>
                             <p>TV Installation</p>
                         </div>
@@ -170,53 +217,7 @@ export default function Projects() {
 
                 </div>
             </div>
-            <div className={styles.projectsItem}>
-                <hr className={styles.projectsItemSeparator} />
-                <div className={styles.projectsItemTextCont}>
-                    <div className={styles.projectsItemContLeft}>
-                        <div className={styles.projectsItemTitle}>
-                            <h3>Engrain Touch Screens</h3>
-                            <p>TV Installation</p>
-                        </div>
-                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
-                    </div>
-                    <div className={styles.projectsItemText}>
-                        <p>A small sampling of the dozens of large format touch screen installations we&apos;ve accomplished. Each screen generally weighing 80lbs+ installed seamlessly to finish the look of any space</p>
-                    </div>
-                </div>
-                <div className={styles.projectsItemImageCont}>
-                    <div className={styles.projectsItemGrid}>
-                        <div className={styles.projectsItemGridItem}>
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/1.jpg" alt="engrain1" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/2.jpg" alt="engrain2" fill objectFit="cover" />
-                        </div>
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/3.jpg" alt="engrain3" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/4.jpg" alt="engrain4" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                        </div>
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        <div className={styles.projectsItemGridItem}>
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/5.jpg" alt="engrain5" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/6.jpg" alt="engrain6" fill objectFit="cover" />
-                        </div>
-                    </div>
-                </div>
-            </div>
+         
             <div className={styles.projectsItem}>
                 <hr className={styles.projectsItemSeparator} />
                 <div className={styles.projectsItemTextCont}>

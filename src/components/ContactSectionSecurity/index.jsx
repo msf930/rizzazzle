@@ -15,7 +15,7 @@ export default function ContactSectionSecurity() {
           </div>
         </div>
         <div className={styles.contactSectionRight}>
-          <Image src="/contactSecurity.png" alt="contact section right" fill objectFit="cover" />
+          <Image src="/contactSecurity.jpg" alt="contact section right" fill objectFit="cover" />
         </div>
       </div>
 

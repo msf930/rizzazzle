@@ -8,14 +8,14 @@ export default function PageHero(props) {
     let image = "";
     if (page === "services") {
         // services
-        title = "Superior Services"
+        title = "Superior Service"
         description = "Rizzazzle Repairs provides professional installation and repair services that ensure seamless setup, reliable performance, and customized solutions for homes and businesses."
         image = "/servicesHero.jpg"
     } else if (page === "about") {
         // about
-        title = "Empower Your AV Needs"
-        description = "Always Ready to Assist"
-        image = "/aboutHero.png"
+        title = "Empower Your Audio Visual Needs"
+        description = "We're standing by to make your technology dreams into reality."
+        image = "/aboutHero.jpg"
     } else if (page === "projects") {
         // projects
         title = "Our Work"
@@ -34,7 +34,7 @@ export default function PageHero(props) {
     } else if (page === "contact") {
         // contact
         title = "Get in Touch"
-        description = "For urgent issues, price quotes, or any other inquiries, our team is ready to assist you."
+        description = "For inquiries, pricing quotes, or any service needs, our team is ready to assist you."
         image = "/contactHero.png"
     }
     return (

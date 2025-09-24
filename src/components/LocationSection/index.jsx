@@ -15,7 +15,7 @@ export default function LocationSection() {
                     <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                 </div>
                 <div className={styles.aboutItemText}>
-                    <h3>AV Installation and Repair For Denver and Beyond</h3>
+                    <h3>Audio Visual Installation and Repair For Denver and Beyond</h3>
                 </div>
             </div>
             <div className={styles.aboutLocationCont}>

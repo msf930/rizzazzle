@@ -31,9 +31,9 @@ export default function Contact() {
                     <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                 </div>
                 <div className={styles.contactItemText}>
-                    <p>18555 E Smoky Hill Rd, PO# 462016
+                    <a href="https://maps.app.goo.gl/NC58yZh6EN86JqSt8" target="_blank">18555 E Smoky Hill Rd, PO# 462016
                         <br />
-                        Aurora, CO 80015, USA</p>
+                        Aurora, CO 80015, USA</a>
                 </div>
             </div>
             <hr className={styles.contactItemHR} />
@@ -61,8 +61,11 @@ export default function Contact() {
                 </div>
             </div>
             <div className={styles.contactItemSpacer}></div>
-            <ContactForm />
-            
+            <div className={styles.contactFormCont} id="contact-form">
+
+                <ContactForm />
+            </div>
+
             <Footer />
         </div>
     );

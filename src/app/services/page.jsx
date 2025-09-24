@@ -18,8 +18,8 @@ export default function Services() {
                     <div className={styles.servicesItemContLeft}>
                         <div className={styles.servicesItemTitle}>
                             <h3>Digital Signage and TV Mounting</h3>
+                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                         </div>
-                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                     </div>
                     <div className={styles.servicesItemText}>
                         <p>Digital signage and TV mounting provide sleek, professional displays for sharing information, promotions, or entertainment, with securely installed screens tailored to your space.</p>
@@ -41,8 +41,8 @@ export default function Services() {
                     <div className={styles.servicesItemContLeft}>
                         <div className={styles.servicesItemTitle}>
                             <h3>Security System Installation</h3>
+                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                         </div>
-                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                     </div>
                     <div className={styles.servicesItemText}>
                         <p>We provide professional security system installation services that ensure reliable protection, seamless integration, and peace of mind for your property.</p>
@@ -68,8 +68,8 @@ export default function Services() {
                     <div className={styles.servicesItemContLeft}>
                         <div className={styles.servicesItemTitle}>
                             <h3>Repairs and Troubleshooting</h3>
+                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                         </div>
-                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                     </div>
                     <div className={styles.servicesItemText}>
                         <p>We offer fast and dependable repairs and troubleshooting services to keep your systems running smoothly with minimal downtime.</p>
@@ -90,8 +90,8 @@ export default function Services() {
                     <div className={styles.servicesItemContLeft}>
                         <div className={styles.servicesItemTitle}>
                             <h3>Routine Maintenance</h3>
+                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                         </div>
-                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                     </div>
                     <div className={styles.servicesItemText}>
                         <p>We deliver routine maintenance and clean-up services that keep spaces organized, efficient, and looking their best.</p>
@@ -112,8 +112,8 @@ export default function Services() {
                     <div className={styles.servicesItemContLeft}>
                         <div className={styles.servicesItemTitle}>
                             <h3>Something Else?</h3>
+                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                         </div>
-                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                     </div>
                     <div className={styles.servicesItemText}>
                         <p>Looking for a service not listed here? Contact us to discuss your custom needs—we offer flexible solutions and are always open to new projects.</p>

@@ -38,7 +38,7 @@ export default async function LocationPage({ params }) {
                 <div className={styles.locationTopSectionLeft}>
                     <h2>RIZZAZZLE REPAIRS</h2>
                     <Image src="/RRLogo.png" alt="rizzazzle logo" width={200} height={200} />
-                    <p>Providing AV Installations, electronic repairs, and general maintenance for {location} </p>
+                    <p>Providing professional installation services, technical troubleshooting, and general maintenance for {location} </p>
                     <ContactButton />
                 </div>
                 <div className={styles.locationTopSectionRight}>
@@ -64,10 +64,11 @@ export default async function LocationPage({ params }) {
                             </div>
                         </div>
                         <div className={styles.homeExpertiseTopRight}>
-                            <h3>Where We Excel</h3>
-                            <p>Delivering exceptional service solutions tailored to different sectors</p>
+                            
+                            <h3>Delivering exceptional service solutions</h3>
+                            <p>Each service solution is custom built and tailored to fit your exact needs. By partnering with the best manufacturers in the business, we provide you with top notch equipment, personalized professional installation, and exceptional ongoing support</p>
                         </div>
-                        <div></div>
+                        
                     </div>
                     <div className={styles.homeExpertiseCardsGrid}>
                         <div className={styles.homeExpertiseCard}>

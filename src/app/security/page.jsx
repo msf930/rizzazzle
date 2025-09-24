@@ -12,7 +12,7 @@ export default function Security() {
             <div className={styles.securityItem}>
                 <div className={styles.securityItemContLeft}>
                     <div className={styles.securityItemTitle}>
-                        <h3>Security Device Sales</h3>
+                        <h3>Security Devices</h3>
                         
                     </div>
                     <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
@@ -22,11 +22,11 @@ export default function Security() {
                 </div>
             </div>
             <div className={styles.securityItemContent}>
-                <p>Surveillance Cameras</p>
+                <p>Wired Surveillance Cameras</p>
                 <hr />
-                <p>Alarm Systems</p>
+                <p>Wireless Surveillance Cameras</p>
                 <hr />
-                <p>Access Control</p>
+                <p>Doorbell Cameras</p>
                 <hr />
                 <p>Monitoring Devices</p>
             </div>

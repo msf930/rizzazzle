@@ -39,7 +39,7 @@ export default function TopSolutions() {
               </div>
             </div>
             <h3>Security System Installation</h3>
-            <p>Expert installation of digital and analog surveillance systems for homes and businesses.</p>
+            <p>Expert installation of digital and analog surveillance systems for homes and businesses</p>
 
           </div>
           <div className={styles.homeServicesCardBG}></div>
@@ -76,7 +76,7 @@ export default function TopSolutions() {
               </div>
             </div>
             <h3>Routine Maintenance</h3>
-            <p>We provide regular maintenance for clubhouses, offices, and pool areas to keep your community in top condition.</p>
+            <p>We provide regular maintenance for clubhouses, offices, and pool areas to keep your community in top condition</p>
           </div>
           <div className={styles.homeServicesCardBG}></div>
         </div>
@@ -93,7 +93,7 @@ export default function TopSolutions() {
               </div>
             </div>
             <h3>Something Else?</h3>
-            <p>Don&apos;t see the service you need? Contact us with your custom request. We&apos;re flexible and experienced with special projects.</p>
+            <p>Don&apos;t see the service you need? Contact us with your custom request. We&apos;re flexible and experienced with special projects</p>
           </div>
           <div className={styles.homeServicesCardBG}></div>
         </div>
