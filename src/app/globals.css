@@ -37,8 +37,10 @@ html {
   z-index: 100;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "a b";
   gap: 20px;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   padding-left: 70px;
   padding-right: 70px;
 }
@@ -50,6 +52,7 @@ html {
   top: 0;
   left: 0;
   right: 0;
+  grid-area: "a";
   z-index: 100;
 }
 
@@ -60,6 +63,7 @@ html {
   top: 0;
   left: 0;
   right: 0;
+  grid-area: "b";
   z-index: 100;
   display: flex;
   flex-direction: column;
@@ -83,7 +87,36 @@ html {
   text-align: center;
   width: 80%;
 }
-
+@media (max-width: 768px) {
+  .homeHero {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100dvh;
+    grid-template-areas: 
+      "b"
+      "a";
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+  }
+  
+  .homeHeroImageCont {
+    grid-area: a;
+  }
+  
+  .homeHeroTextCont {
+    grid-area: b;
+  }
+  
+  .homeHeroTextCont h1 {
+    font-size: 28px;
+  }
+  
+  .homeHeroTextCont p {
+    font-size: 16px;
+    width: 100%;
+  }
+}
 
 .homeExpertise {
   width: 100%;

@@ -1,6 +1,7 @@
 .footerCont{
     width: calc(100% - 140px);
     height: 40vh;
+    min-height: 350px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -77,6 +78,13 @@
     gap: 100px;
     color: #ffffff;
     padding-right: 30px;
+}
+.footerTextRightIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 .footerTextRight a{
     text-decoration: none;
