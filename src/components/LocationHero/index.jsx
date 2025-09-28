@@ -15,7 +15,7 @@ export default function LocationHero(props) {
                     </div>
                 </div>
                 <div className={styles.sectionHeroGridRight}>
-                    <Image src="/locationHero.png" alt={location} fill objectFit="cover" />
+                    <Image src="/locationHero.png" alt={location} fill={true} style={{objectFit: "cover"}} placeholder="blur" blurDataURL="/homeHeroPixel.png" priority={true}  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw" />
                 </div>
             </div>
         </div>

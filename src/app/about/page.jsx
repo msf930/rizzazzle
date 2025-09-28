@@ -14,7 +14,7 @@ export default function About() {
             <div className={styles.aboutItem}>
                 <div className={styles.aboutItemContLeft}>
                     <div className={styles.aboutItemTitle}>
-                        <h3>Why Rizzazzle Repairs?</h3>
+                        <h2>Why Rizzazzle Repairs?</h2>
                     <div className={styles.aboutItemTitleArrow}>
                         <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
                     </div>
@@ -30,7 +30,7 @@ export default function About() {
                         <Image src="/wreath.png" alt="wreath" width={150} height={150} />
                     </div>
                     <div className={styles.aboutValueItemText}>
-                        <h3>PROFESSIONAL <br /> INSTALLERS</h3>
+                        <h2>PROFESSIONAL <br /> INSTALLERS</h2>
                     </div>
                 </div>
                 <div className={styles.aboutValueItem}>
@@ -38,7 +38,7 @@ export default function About() {
                         <Image src="/wreath.png" alt="wreath" width={150} height={150} />
                     </div>
                     <div className={styles.aboutValueItemText}>
-                        <h3>EXPERTISE IN <br /> AUDIO VISUAL <br /> OPTIMIZATION</h3>
+                        <h2>EXPERTISE IN <br /> AUDIO VISUAL <br /> OPTIMIZATION</h2>
                     </div>
                 </div>
                 <div className={styles.aboutValueItem}>
@@ -46,7 +46,7 @@ export default function About() {
                         <Image src="/wreath.png" alt="wreath" width={150} height={150} />
                     </div>
                     <div className={styles.aboutValueItemText}>
-                        <h3>PROFESSIONAL REPAIR <br /> SERVICES</h3>
+                        <h2>PROFESSIONAL REPAIR <br /> SERVICES</h2>
                     </div>
                 </div>
                 <div className={styles.aboutValueItem}>
@@ -54,7 +54,7 @@ export default function About() {
                         <Image src="/wreath.png" alt="wreath" width={150} height={150} />
                     </div>
                     <div className={styles.aboutValueItemText}>
-                        <h3>TRUSTED SECURITY <br /> SPECIALISTS</h3>
+                        <h2>TRUSTED SECURITY <br /> SPECIALISTS</h2>
                     </div>
                 </div>
             </div>

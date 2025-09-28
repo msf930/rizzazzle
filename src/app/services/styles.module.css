@@ -67,7 +67,7 @@
     align-items: center;
     justify-content: flex-start;
 }
-.servicesItemTitle h3{
+.servicesItemTitle h2{
     width: 20vw;
     font-size: 30px;
     font-weight: 600;
@@ -75,7 +75,7 @@
     text-align: left;
 }
 @media (max-width: 768px) {
-    .servicesItemTitle h3{
+    .servicesItemTitle h2{
         width: 100%;
     }
 }

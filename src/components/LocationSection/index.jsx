@@ -9,7 +9,7 @@ export default function LocationSection() {
             <div className={styles.aboutItem}>
                 <div className={styles.aboutItemContLeft}>
                     <div className={styles.aboutItemTitle}>
-                        <h3>Our Service Areas</h3>
+                        <h2>Our Service Areas</h2>
                         <p>Click below to see our service areas</p>
                     </div>
                     <div className={styles.aboutItemTitleArrow}>   
@@ -17,7 +17,7 @@ export default function LocationSection() {
                     </div>
                 </div>
                 <div className={styles.aboutItemText}>
-                    <h3>Audio Visual Installation and Repair For Denver and Beyond</h3>
+                    <h2>Audio Visual Installation and Repair For Denver and Beyond</h2>
                 </div>
             </div>
             <div className={styles.aboutLocationCont}>

@@ -58,29 +58,29 @@ export default function ContactForm() {
                         <div className={styles.contactFormGroup}>
                             <div className={styles.contactFormInputCont}>
                                 <label htmlFor="First Name">First Name</label>
-                                <input type="text" name="First Name" className={styles.contactFormInputField} />
+                                <input type="text" name="First Name" id="First Name" className={styles.contactFormInputField} />
                             </div>
                             <div className={styles.contactFormInputCont}>
                                 <label htmlFor="Last Name">Last Name</label>
-                                <input type="text" name="Last Name" className={styles.contactFormInputField} />
+                                <input type="text" name="Last Name" id="Last Name" className={styles.contactFormInputField} />
                             </div>
                         </div>
                         <div className={styles.contactFormGroup}>
                             <div className={styles.contactFormInputCont}>
                                 <label htmlFor="Email">Email</label>
-                                <input type="email" name="Email" className={styles.contactFormInputField} />
+                                <input type="email" name="Email" id="Email" className={styles.contactFormInputField} />
                             </div>
                         </div>
                         <div className={styles.contactFormGroup}>
                             <div className={styles.contactFormInputCont}>
-                                <label htmlFor="Email">Phone</label>
-                                <input type="tel" name="Phone" className={styles.contactFormInputField} />
+                                <label htmlFor="Phone">Phone</label>
+                                <input type="tel" name="Phone" id="Phone" className={styles.contactFormInputField} />
                             </div>
                         </div>
                         <div className={styles.contactFormGroupArea}>
                             <div className={styles.contactFormInputAreaCont}>
                                 <label htmlFor="Message">Message</label>
-                                <textarea name="Message" className={styles.contactFormInputArea} />
+                                <textarea name="Message" id="Message" className={styles.contactFormInputArea} />
                             </div>
                         </div>
                         <div className={styles.contactFormGroupButton}>

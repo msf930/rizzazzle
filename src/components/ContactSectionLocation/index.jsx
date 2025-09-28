@@ -21,7 +21,7 @@ export default function ContactSectionLocation({location}) {
           </div>
         </div>
         <div className={styles.contactSectionRight}>
-          <Image src="/CTAMavrick.png" alt="contact section right" fill objectFit="cover" />
+          <Image src="/CTAMavrick.png" alt="contact section right" fill={true} style={{objectFit: "cover"}} placeholder="blur" blurDataURL="/homeHeroPixel.png" priority={true}  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw" />
         </div>
       </div>
 

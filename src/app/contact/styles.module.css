@@ -40,7 +40,14 @@
     align-items: center;
     justify-content: flex-start;
 }
-
+.contactItemTitleArrow {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media (max-width: 768px) {
     .contactItemContLeft {
         flex-direction: row;
@@ -63,14 +70,14 @@
     justify-content: center;
 }
 
-.contactItemTitle h3 {
+.contactItemTitle h2 {
     font-size: 30px;
     font-weight: 600;
     color: #000000;
     text-align: left;
 }
 
-.contactItemTitle h4 {
+.contactItemTitle h3 {
     font-size: 26px;
     font-weight: 600;
     color: #000000;

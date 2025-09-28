@@ -59,7 +59,7 @@
         width: 100%;
     }
 }
-.aboutItemTitle h3{
+.aboutItemTitle h2{
     font-size: 30px;
     font-weight: 600;
     color: #000000;
@@ -85,7 +85,7 @@
         width: 100%;
     }
 }
-.aboutItemText h3{
+.aboutItemText h2{
     font-size: 30px;
     font-weight: 600;
     color: #000000;

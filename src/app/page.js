@@ -14,7 +14,7 @@ export default function Home() {
       {/* Hero */}
       <div className="homeHero">
         <div className="homeHeroImageCont">
-          <Image src="/homeHero.png" alt="homeHero" fill={true} style={{objectFit: "cover"}} placeholder="blur" blurDataURL="/homeHeroPixel.png" priority={true}/>
+          <Image src="/homeHero.png" alt="homeHero" fill={true} style={{objectFit: "cover"}} placeholder="blur" blurDataURL="/homeHeroPixel.png" priority={true} sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw" />
         </div>
         <div className="homeHeroTextCont">
           <h1>Rizzazzle Repairs</h1>

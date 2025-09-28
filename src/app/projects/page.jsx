@@ -16,7 +16,7 @@ export default function Projects() {
                 <div className={styles.projectsItemTextCont}>
                     <div className={styles.projectsItemContLeft}>
                         <div className={styles.projectsItemTitle}>
-                            <h3>Carnegie at Washingtonian</h3>
+                            <h2>Carnegie at Washingtonian</h2>
                             <p>TV Installation</p>
                         </div>
                         <div className={styles.projectsItemTitleArrow}>
@@ -73,7 +73,7 @@ export default function Projects() {
                 <div className={styles.projectsItemTextCont}>
                     <div className={styles.projectsItemContLeft}>
                         <div className={styles.projectsItemTitle}>
-                            <h3>Touch Screens</h3>
+                            <h2>Touch Screens</h2>
                             <p>TV Installation</p>
                         </div>
                         <div className={styles.projectsItemTitleArrow}>
@@ -151,7 +151,7 @@ export default function Projects() {
                 <div className={styles.projectsItemTextCont}>
                     <div className={styles.projectsItemContLeft}>
                         <div className={styles.projectsItemTitle}>
-                            <h3>McDonalds at Denver Airport</h3>
+                            <h2>McDonalds at Denver Airport</h2>
                             <p>TV Installation</p>
                         </div>
                         <div className={styles.projectsItemTitleArrow}>
@@ -207,7 +207,7 @@ export default function Projects() {
                 <div className={styles.projectsItemTextCont}>
                     <div className={styles.projectsItemContLeft}>
                         <div className={styles.projectsItemTitle}>
-                            <h3>Chimney Hill HOA</h3>
+                            <h2>Chimney Hill HOA</h2>
                             <p>Trash Corral Cleanup</p>
                         </div>
                         <div className={styles.projectsItemTitleArrow}>
@@ -285,7 +285,7 @@ export default function Projects() {
                 <div className={styles.projectsItemTextCont}>
                     <div className={styles.projectsItemContLeft}>
                         <div className={styles.projectsItemTitle}>
-                            <h3>Umbrella Ridge HOA</h3>
+                            <h2>Umbrella Ridge HOA</h2>
                             <p>Clubhouse Cleaning</p>
                         </div>
                         <div className={styles.projectsItemTitleArrow}>
@@ -347,7 +347,7 @@ export default function Projects() {
                 <div className={styles.projectsItemTextCont}>
                     <div className={styles.projectsItemContLeft}>
                         <div className={styles.projectsItemTitle}>
-                            <h3>Digital Piano Keyboards</h3>
+                            <h2>Digital Piano Keyboards</h2>
                             <p>Repairs</p>
                         </div>
                         <div className={styles.projectsItemTitleArrow}>

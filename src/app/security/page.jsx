@@ -12,7 +12,7 @@ export default function Security() {
             <div className={styles.securityItem}>
                 <div className={styles.securityItemContLeft}>
                     <div className={styles.securityItemTitle}>
-                        <h3>Security Devices</h3>
+                        <h2>Security Devices</h2>
                         
                     </div>
                     <div className={styles.securityItemTitleArrow}>
@@ -35,7 +35,7 @@ export default function Security() {
             <div className={styles.securityItem}>
                 <div className={styles.securityItemContLeft}>
                     <div className={styles.securityItemTitle}>
-                        <h3>Security System Service Cycle</h3>
+                        <h2>Security System Service Cycle</h2>
                     </div>
                     <div className={styles.securityItemTitleArrow}>
                         <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
@@ -55,7 +55,7 @@ export default function Security() {
             <div className={styles.securityItem}>
                 <div className={styles.securityItemContLeft}>
                     <div className={styles.securityItemTitle}>
-                        <h3>Security System Features</h3>
+                        <h2>Security System Features</h2>
                     </div>
                     <div className={styles.securityItemTitleArrow}>
                         <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />

@@ -15,7 +15,7 @@ export default function Contact() {
                 <div className={styles.contactItem}>
                     <div className={styles.contactItemContLeft}>
                         <div className={styles.contactItemTitle}>
-                            <h3>Contact Us</h3>
+                            <h2>Contact Us</h2>
                         </div>
                         <div className={styles.contactItemTitleArrow}>
                             <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
@@ -29,7 +29,7 @@ export default function Contact() {
                 <div className={styles.contactItem}>
                     <div className={styles.contactItemContLeft}>
                         <div className={styles.contactItemTitle}>
-                            <h4>PO Box</h4>
+                            <h3>PO Box</h3>
                         </div>
                         <div className={styles.contactItemTitleArrow}>
                             <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
@@ -45,7 +45,7 @@ export default function Contact() {
                 <div className={styles.contactItem}>
                     <div className={styles.contactItemContLeft}>
                         <div className={styles.contactItemTitle}>
-                            <h4>Phone</h4>
+                            <h3>Phone</h3>
                         </div>
                         <div className={styles.contactItemTitleArrow}>
                             <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
@@ -59,7 +59,7 @@ export default function Contact() {
                 <div className={styles.contactItem}>
                     <div className={styles.contactItemContLeft}>
                         <div className={styles.contactItemTitle}>
-                            <h4>Email</h4>
+                            <h3>Email</h3>
                         </div>
                         <div className={styles.contactItemTitleArrow}>
                             <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />

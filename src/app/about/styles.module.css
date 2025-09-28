@@ -48,7 +48,7 @@
     align-items: center;
     justify-content: flex-start;
 }
-.aboutItemTitle h3{
+.aboutItemTitle h2{
     font-size: 30px;
     font-weight: 600;
     color: #000000;
@@ -111,7 +111,7 @@
     align-items: center;
     justify-content: center;
 }
-.aboutItemText h3{
+.aboutItemText h2{
     font-size: 30px;
     font-weight: 600;
     color: #000000;

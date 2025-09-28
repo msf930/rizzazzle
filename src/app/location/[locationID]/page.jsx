@@ -24,7 +24,7 @@ export default async function LocationPage({ params }) {
 
     const location = formatLocationID(locationID);
     let mapURL = "";
-    console.log(locationID);
+   
     if (location === "Out Of State") {
         mapURL = await `https://maps.googleapis.com/maps/api/staticmap?center=CO,USA&zoom=6&size=600x600&key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API}`;
     } else {
