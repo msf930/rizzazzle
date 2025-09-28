@@ -30,6 +30,9 @@
 }
 
 @media (max-width: 768px) {
+  .locationsItem {
+    margin-bottom: 0px;
+  }
   .homeExpertiseImages {
     display: none;
   }

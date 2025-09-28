@@ -79,7 +79,7 @@
 }
 .contactFormRight{
     width: 100%;
-    height: auto;
+    height: 100%;
     position: relative;
     display: flex;
     flex-direction: column;

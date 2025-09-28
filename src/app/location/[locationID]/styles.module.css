@@ -1,5 +1,5 @@
 .locationTopSection{
-    height: 80dvh;
+    height: auto;
     width: 100%;
     display: grid;
     justify-content: space-between;
@@ -8,8 +8,8 @@
     padding-left: 70px;
     padding-right: 70px;
     padding-top: 70px;
-    padding-bottom: 70px;
-    margin-bottom: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
     background-color: #ffffff;
 }
 @media (max-width: 768px) {
