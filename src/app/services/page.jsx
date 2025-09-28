@@ -18,7 +18,9 @@ export default function Services() {
                     <div className={styles.servicesItemContLeft}>
                         <div className={styles.servicesItemTitle}>
                             <h3>Digital Signage and TV Mounting</h3>
-                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                            <div className={styles.servicesItemTitleIcon}>
+                                <Image src="/sectionIcon.png" alt="rightArrow" fill={true} style={{objectFit: "contain"}} sizes="50px" />
+                            </div>
                         </div>
                     </div>
                     <div className={styles.servicesItemText}>
@@ -41,7 +43,9 @@ export default function Services() {
                     <div className={styles.servicesItemContLeft}>
                         <div className={styles.servicesItemTitle}>
                             <h3>Security System Installation</h3>
-                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                            <div className={styles.servicesItemTitleIcon}>
+                                <Image src="/sectionIcon.png" alt="rightArrow" fill={true} style={{objectFit: "contain"}} sizes="50px" />
+                            </div>
                         </div>
                     </div>
                     <div className={styles.servicesItemText}>
@@ -68,7 +72,9 @@ export default function Services() {
                     <div className={styles.servicesItemContLeft}>
                         <div className={styles.servicesItemTitle}>
                             <h3>Repairs and Troubleshooting</h3>
-                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                            <div className={styles.servicesItemTitleIcon}>
+                                <Image src="/sectionIcon.png" alt="rightArrow" fill={true} style={{objectFit: "contain"}} sizes="50px" />
+                            </div>
                         </div>
                     </div>
                     <div className={styles.servicesItemText}>
@@ -90,7 +96,9 @@ export default function Services() {
                     <div className={styles.servicesItemContLeft}>
                         <div className={styles.servicesItemTitle}>
                             <h3>Routine Maintenance</h3>
-                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                            <div className={styles.servicesItemTitleIcon}>
+                                <Image src="/sectionIcon.png" alt="rightArrow" fill={true} style={{objectFit: "contain"}} sizes="50px" />
+                            </div>
                         </div>
                     </div>
                     <div className={styles.servicesItemText}>
@@ -112,7 +120,9 @@ export default function Services() {
                     <div className={styles.servicesItemContLeft}>
                         <div className={styles.servicesItemTitle}>
                             <h3>Something Else?</h3>
-                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                            <div className={styles.servicesItemTitleIcon}>
+                                <Image src="/sectionIcon.png" alt="rightArrow" fill={true} style={{objectFit: "contain"}} sizes="50px" />
+                            </div>
                         </div>
                     </div>
                     <div className={styles.servicesItemText}>

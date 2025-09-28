@@ -24,6 +24,13 @@
     transition: top 0.3s ease, left 0.3s ease;
     
 }
+@media (max-width: 768px) {
+  .btnFront {
+    position: relative;
+    height: 40px;
+    font-size: 14px;
+  }
+}
 .btnCont:hover .btnFront {
     top: -5px;
     left: -5px;

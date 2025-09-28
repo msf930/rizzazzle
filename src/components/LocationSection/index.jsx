@@ -12,7 +12,9 @@ export default function LocationSection() {
                         <h3>Our Service Areas</h3>
                         <p>Click below to see our service areas</p>
                     </div>
-                    <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    <div className={styles.aboutItemTitleArrow}>   
+                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    </div>
                 </div>
                 <div className={styles.aboutItemText}>
                     <h3>Audio Visual Installation and Repair For Denver and Beyond</h3>

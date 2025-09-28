@@ -15,7 +15,7 @@ export default function ContactSection() {
           </div>
         </div>
         <div className={styles.contactSectionRight}>
-          <Image src="/CTAMavrick.png" alt="contact section right" fill objectFit="cover" />
+          <Image src="/CTAMavrick.png" alt="contact section right" fill style={{objectFit: "cover"}}  />
         </div>
       </div>
 

@@ -22,7 +22,32 @@
     justify-content: flex-start;
     padding-left: 70px;
     padding-right: 70px;
-    
+}
+.servicesItemTitleIcon{
+    position: relative;
+    rotate: 0deg;
+    width: 50px;
+    height: 50px;
+}
+@media (max-width: 768px) {
+    .servicesItem {
+        padding-left: 20px;
+        padding-right: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        height: auto;
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        gap: 30px;
+        
+    }
+    .servicesItemTitleIcon{
+        position: relative;
+        rotate: 90deg;
+        width: 50px;
+        height: 50px;
+    }
 }
 .servicesItemContLeft{
     width: 100%;
@@ -43,11 +68,16 @@
     justify-content: flex-start;
 }
 .servicesItemTitle h3{
-    width: 300px;
+    width: 20vw;
     font-size: 30px;
     font-weight: 600;
     color: #000000;
     text-align: left;
+}
+@media (max-width: 768px) {
+    .servicesItemTitle h3{
+        width: 100%;
+    }
 }
 .servicesItemText{
     width: 100%;
@@ -65,6 +95,12 @@
     padding-left: 70px;
     padding-right: 70px;
 }
+@media (max-width: 768px) {
+    .servicesItemContent{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 .servicesItemContent p{
     font-size: 24px;
     font-weight: 400;
@@ -81,4 +117,10 @@
     align-items: flex-start;
     justify-content: flex-start;
     padding-left: 70px;
+}
+@media (max-width: 768px) {
+    .servicesItemButton{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }

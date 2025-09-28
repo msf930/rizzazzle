@@ -20,6 +20,16 @@
     padding-left: 70px;
     padding-right: 70px;
 }
+@media (max-width: 768px) {
+    .aboutItem{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px;
+        height: auto;
+    }
+}
 .aboutItemContLeft{
     width: 100%;
     height: 100%;
@@ -56,6 +66,14 @@
     justify-content: center;
     gap: 80px;
 }
+@media (max-width: 768px) {
+    .aboutValueItemCont{
+        flex-direction: column;
+    }
+    .aboutItemTitleArrow{
+        rotate: 90deg;
+    }
+}
 .aboutValueItem{
     width: auto;
     height: 100%;
@@ -78,6 +96,11 @@
 .aboutSpacer{
     width: 100%;
     height: 100px;
+}
+@media (max-width: 768px) {
+    .aboutSpacer{
+        height: 20px;
+    }
 }
 .aboutItemText{
     width: 100%;

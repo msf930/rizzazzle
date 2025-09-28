@@ -15,8 +15,9 @@ export default function About() {
                 <div className={styles.aboutItemContLeft}>
                     <div className={styles.aboutItemTitle}>
                         <h3>Why Rizzazzle Repairs?</h3>
-
-                    <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    <div className={styles.aboutItemTitleArrow}>
+                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    </div>
                     </div>
                 </div>
                 <div className={styles.aboutItemText}>

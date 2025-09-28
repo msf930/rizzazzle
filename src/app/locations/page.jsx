@@ -15,16 +15,28 @@ export default function Locations() {
             <div className={styles.locationsItem}>
                 <LocationSection />
             </div>
-            <div className="homeExpertiseImages">
-                <div className="homeExpertiseImagesGrid">
+            <div className={styles.homeExpertiseImages}>
+                <div className={styles.homeExpertiseImagesGrid}>
                     <div></div>
-                    <div className="homeExpertiseImagesGridItem">
+                    <div className={styles.homeExpertiseImagesGridItem}>
                         <Image src="/locationsImage2.png" alt="homeExpertiseImage" fill objectFit="cover" />
                     </div>
                 </div>
-                <div className="homeExpertiseImagesCenter">
+                <div className={styles.homeExpertiseImagesCenter}>
                     <Image src="/locationsImage1.png" alt="homeExpertiseImage" fill objectFit="cover" />
                 </div>
+            </div>
+            <div className={styles.homeExpertiseImagesMobile}>
+                <div className={styles.homeExpertiseImagesGrid}>
+                    
+                    <div className={styles.homeExpertiseImagesGridItem}>
+                        <Image src="/locationsImage2.png" alt="homeExpertiseImage" fill objectFit="cover" />
+                    </div>
+                    <div className={styles.homeExpertiseImagesGridItem}>
+                        <Image src="/locationsImage1.png" alt="homeExpertiseImage" fill objectFit="cover" />
+                    </div>
+                </div>
+                
             </div>
             <ContactSection />
             <Footer />

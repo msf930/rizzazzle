@@ -14,7 +14,7 @@ export default function Home() {
       {/* Hero */}
       <div className="homeHero">
         <div className="homeHeroImageCont">
-          <Image src="/homeHero.png" alt="homeHero" fill objectFit="cover" />
+          <Image src="/homeHero.png" alt="homeHero" fill={true} style={{objectFit: "cover"}} placeholder="blur" blurDataURL="/homeHeroPixel.png" priority={true}/>
         </div>
         <div className="homeHeroTextCont">
           <h1>Rizzazzle Repairs</h1>
@@ -35,7 +35,7 @@ export default function Home() {
             <div className="homeExpertiseTopLeftCont">
               <div className="homeExpertiseTopLeft">
                 <h2>Our Expertise</h2>
-                <Image src="/sectionIcon.png" alt="homeExpertise" width={50} height={50} />
+                <Image src="/sectionIcon.png" alt="homeExpertise" className="homeExpertiseTopLeftIcon" width={50} height={50} />
               </div>
             </div>
             <div className="homeExpertiseTopRight">
@@ -71,11 +71,16 @@ export default function Home() {
         <div className="homeExpertiseImagesGrid">
           <div></div>
           <div className="homeExpertiseImagesGridItem">
-            <Image src="/expertiseImage2.png" alt="homeExpertiseImage" fill objectFit="cover" />
+            <Image src="/expertiseImage2.png" alt="homeExpertiseImage" fill style={{objectFit: "cover"}}  />
+          </div>
+          <div className="homeExpertiseImagesCenter2">
+            <Image src="/expertiseImage1.png" alt="homeExpertiseImage" fill style={{objectFit: "cover"}}  />
           </div>
         </div>
         <div className="homeExpertiseImagesCenter">
-          <Image src="/expertiseImage1.png" alt="homeExpertiseImage" fill objectFit="cover" />
+          <div className="homeExpertiseImagesCenterImage">
+            <Image src="/expertiseImage1.png" alt="homeExpertiseImage" fill style={{objectFit: "cover"}}  />
+          </div>
         </div>
       </div>
       {/* Client Carousel */}

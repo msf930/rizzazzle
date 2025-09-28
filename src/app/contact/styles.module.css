@@ -1,5 +1,13 @@
-
-.contactItem{
+.contactItemCont {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contactItem {
     margin-top: 70px;
     width: 100%;
     height: 150px;
@@ -11,7 +19,19 @@
     padding-left: 70px;
     padding-right: 70px;
 }
-.contactItemContLeft{
+
+@media (max-width: 768px) {
+    .contactItem {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        gap: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.contactItemContLeft {
     width: 100%;
     height: 100%;
     position: relative;
@@ -20,7 +40,20 @@
     align-items: center;
     justify-content: flex-start;
 }
-.contactItemTitle{
+
+@media (max-width: 768px) {
+    .contactItemContLeft {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contactItemTitleArrow {
+        rotate: 90deg;
+    }
+}
+
+.contactItemTitle {
     width: 20vw;
     height: 100%;
     position: relative;
@@ -29,19 +62,33 @@
     align-items: flex-start;
     justify-content: center;
 }
-    .contactItemTitle h3{
-        font-size: 30px;
-        font-weight: 600;
-        color: #000000;
-        text-align: left;
+
+.contactItemTitle h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+}
+
+.contactItemTitle h4 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    text-align: left;
+}
+@media (max-width: 768px) {
+    .contactItemTitle{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
     }
-    .contactItemTitle h4{
-        font-size: 26px;
-        font-weight: 600;
-        color: #000000;
-        text-align: left;
-    }
-.contactItemText{
+}
+
+.contactItemText {
     width: 100%;
     height: 100%;
     position: relative;
@@ -50,7 +97,9 @@
     align-items: flex-start;
     justify-content: center;
 }
-.contactItemText p, .contactItemText a{
+
+.contactItemText p,
+.contactItemText a {
     font-size: 16px;
     font-weight: 400;
     color: #000000;
@@ -58,22 +107,48 @@
     text-decoration: none;
     transition: text-decoration 0.3s ease;
 }
-.contactItemText a:hover{
-    
+
+.contactItemText a:hover {
+
     text-decoration: underline;
 }
-.contactItemSpacer{
+
+.contactItemSpacer {
     width: 100%;
     height: 70px;
 }
-.contactItemHR{
+
+@media (max-width: 768px) {
+    .contactItemSpacer {
+        height: 0px;
+    }
+}
+
+.contactItemHR {
     width: calc(100% - 140px);
     height: 1px;
     background-color: #000000;
     margin-left: 70px;
     margin-right: 70px;
 }
-.contactFormCont{
+
+@media (max-width: 768px) {
+    .contactItemHR {
+        width: calc(100% - 40px);
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+.contactFormCont {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     scroll-margin-top: 150px;
-    
+    height: auto;
+    margin-top: 0px;
+
 }

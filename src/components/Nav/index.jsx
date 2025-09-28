@@ -84,6 +84,7 @@ export default function Nav() {
         </div>
         
         <nav className={styles.mobileMenuNav}>
+          <Link href="/" onClick={closeMobileMenu} className={pathname === "/" ? styles.mobileMenuNavActive : ""}>Home</Link>
           <Link href="/services" onClick={closeMobileMenu} className={pathname === "/services" ? styles.mobileMenuNavActive : ""}>Services</Link>
           <Link href="/about" onClick={closeMobileMenu} className={pathname === "/about" ? styles.mobileMenuNavActive : ""}>About Us</Link>
           <Link href="/projects" onClick={closeMobileMenu} className={pathname === "/projects" ? styles.mobileMenuNavActive : ""}>Projects</Link>

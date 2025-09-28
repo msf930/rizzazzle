@@ -60,7 +60,9 @@ export default async function LocationPage({ params }) {
                         <div className={styles.homeExpertiseTopLeftCont}>
                             <div className={styles.homeExpertiseTopLeft}>
                                 <h2>Our Expertise</h2>
-                                <Image src="/sectionIcon.png" alt="homeExpertise" width={50} height={50} />
+                                <div className="homeExpertiseTopLeftIcon">
+                                  <Image src="/sectionIcon.png" alt="homeExpertise" width={50} height={50} />
+                                </div>
                             </div>
                         </div>
                         <div className={styles.homeExpertiseTopRight}>

@@ -47,7 +47,16 @@ export default function PageHero(props) {
                     </div>
                 </div>
                 <div className={styles.sectionHeroGridRight}>
-                    <Image src={image} alt={title} fill objectFit="cover" />
+                    <Image 
+                    src={image} 
+                    alt={title} 
+                    fill={true} 
+                    style={{objectFit: "cover"}} 
+                    placeholder="blur" 
+                    blurDataURL="/homeHeroPixel.png" 
+                    priority={true} 
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 60vw"
+                    />
                 </div>
             </div>
         </div>

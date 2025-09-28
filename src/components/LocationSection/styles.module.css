@@ -8,21 +8,36 @@
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 768px) {
+    .locationSectionCont{
+        
+        margin-bottom: 70px;
+    }
+}
 .aboutItem{
     margin-top: 70px;
     width: 100%;
-    height: 150px;
+    height: auto;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
     justify-content: flex-start;
     padding-left: 70px;
     padding-right: 70px;
     padding-bottom: 70px;
 }
+@media (max-width: 768px) {
+    .aboutItem{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 20px;
+    }
+}
 .aboutItemContLeft{
-    width: 100%;
+    width: auto;
     height: 100%;
     position: relative;
     display: flex;
@@ -31,19 +46,44 @@
     justify-content: flex-start;
 }
 .aboutItemTitle{
-    width: 300px;
-    height: 100%;
+    width: 20vw;
+    height: auto;
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
 }
+@media (max-width: 768px) {
+    .aboutItemTitle{
+        width: 100%;
+    }
+}
 .aboutItemTitle h3{
     font-size: 30px;
     font-weight: 600;
     color: #000000;
     text-align: left;
+}
+
+@media (max-width: 768px) {
+    .aboutItemTitleArrow{
+        rotate: 90deg;
+    }
+}
+.aboutItemText{
+    width: 50vw;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+@media (max-width: 768px) {
+    .aboutItemText{
+        width: 100%;
+    }
 }
 .aboutItemText h3{
     font-size: 30px;
@@ -62,6 +102,12 @@
     padding-left: 70px;
     padding-right: 70px;
 }
+@media (max-width: 768px) {
+    .aboutLocationCont{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
 .aboutLocationHr{
     width: 100%;
     height: 1px;
@@ -78,6 +124,7 @@
     align-items: center;
     justify-content: center;
 }
+
 .aboutLocationItem{
     width: fit-content;
     height: auto;
@@ -86,6 +133,12 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+}
+@media (max-width: 768px) {
+    .aboutLocationItem{
+        width: 100%;
+        align-items: center;
+    }
 }
 .aboutLocationItem:hover hr{
     width: 100%;

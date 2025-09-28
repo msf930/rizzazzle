@@ -10,7 +10,15 @@
     margin-top: 100px;
     background-color: #ffffff;
 }
-
+@media (max-width: 768px) {
+    .sectionHeroCont {
+        height: 100dvh;
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 0px;
+    }
+}
 .sectionHeroGrid {
     display: grid;
     grid-template-columns: 2fr 3fr;
@@ -19,6 +27,7 @@
     width: 100%;
     height: 100%;
     gap: 20px;
+    grid-template-areas: "a b";
 }
 
 .sectionHeroGridLeft {
@@ -30,8 +39,14 @@
     width: 100%;
     background-color: #1e1e1e;
     color: #ffffff;
+    grid-area: "a";
 }
-
+@media (max-width: 768px) {
+    .sectionHeroGridLeft {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
 .sectionHeroGridLeftText {
     width: 60%;
     height: 80%;
@@ -54,9 +69,30 @@
     font-weight: 400;
     line-height: 1.5;
 }
-
+@media (max-width: 768px) {
+    .sectionHeroGridLeftText {
+        width: 80%;
+    }
+}
 .sectionHeroGridRight {
     position: relative;
     width: 100%;
     height: 100%;
+    grid-area: "b";
+}
+
+@media (max-width: 768px) {
+    .sectionHeroGrid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        height: 100dvh;
+        width: 100%;
+        grid-template-areas:
+            "b"
+            "a";
+
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 80px;
+    }
 }

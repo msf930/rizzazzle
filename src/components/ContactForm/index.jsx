@@ -47,7 +47,9 @@ export default function ContactForm() {
                 <div className={styles.contactFormLeft}>
                     <div className={styles.contactFormLeftTitle}>
                         <h2>Reach Out</h2>
-                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                        <div className={styles.contactFormLeftTitleArrow}>
+                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                        </div>
                     </div>
                 </div>
                 <div className={styles.contactFormRight}>

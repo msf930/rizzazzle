@@ -15,7 +15,9 @@ export default function Security() {
                         <h3>Security Devices</h3>
                         
                     </div>
-                    <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    <div className={styles.securityItemTitleArrow}>
+                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    </div>
                 </div>
                 <div className={styles.securityItemText}>
                     <p>Offering a wide range of reliable security systems tailored to meet your safety needs.</p>
@@ -35,7 +37,9 @@ export default function Security() {
                     <div className={styles.securityItemTitle}>
                         <h3>Security System Service Cycle</h3>
                     </div>
-                    <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    <div className={styles.securityItemTitleArrow}>
+                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    </div>
                 </div>
                 <div className={styles.securityItemText}>
                     <p>From beginning to end, we offer full cycle service to keep you and your property secure.</p>
@@ -53,7 +57,9 @@ export default function Security() {
                     <div className={styles.securityItemTitle}>
                         <h3>Security System Features</h3>
                     </div>
-                    <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    <div className={styles.securityItemTitleArrow}>
+                        <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                    </div>
                 </div>
                 <div className={styles.securityItemText}>
                     <p>Keep what matters most safe and rest easy knowing your home is secure.</p>
