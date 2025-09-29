@@ -10,6 +10,7 @@ import LocationHero from "@/components/LocationHero/index";
 import ContactButton from "@/components/ContactButton";
 import ContactSectionLocation from "@/components/ContactSectionLocation";
 import TopSolutions from "@/components/TopSolutions";
+
 export default async function LocationPage({ params }) {
     const { locationID } = await params;
 
