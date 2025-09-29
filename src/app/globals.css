@@ -93,13 +93,14 @@ html {
   .homeHero {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
-    height: 100dvh;
+    height: 800px;
     grid-template-areas:
       "b"
       "a";
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 80px;
+    padding-top: 100px;
+    margin-top: 0px;
   }
 
   .homeHeroImageCont {

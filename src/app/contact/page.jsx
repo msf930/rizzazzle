@@ -71,6 +71,46 @@ export default function Contact() {
                 </div>
                 <div className={styles.contactItemSpacer}></div>
             </div>
+            {/* Mobile */}
+            <div className={styles.contactItemContMobile}>
+                <div className={styles.contactItem}>
+                    <div className={styles.contactItemContLeft}>
+                        <div className={styles.contactItemTitle}>
+                            <h2>Contact Us</h2>
+                        </div>
+                        <div className={styles.contactItemTitleArrow}>
+                            <Image src="/sectionIcon.png" alt="rightArrow" width={50} height={50} />
+                        </div>
+                    </div>
+                    <div className={styles.contactItemText}>
+                        <p>As we do not operate a physical storefront, all services are provided directly at your home or business.</p>
+                    </div>
+                </div>
+                <div className={styles.contactItemSpacer}></div>
+                <div className={styles.contactItem}>
+                    
+                    <div className={styles.contactItemText}>
+                        <a href="https://maps.app.goo.gl/NC58yZh6EN86JqSt8" target="_blank">18555 E Smoky Hill Rd, PO# 462016
+                            <br />
+                            Aurora, CO 80015, USA</a>
+                    </div>
+                </div>
+                
+                <div className={styles.contactItem}>
+                    
+                    <div className={styles.contactItemText}>
+                        <a href="tel:17192870745">(719) 287-0745</a>
+                    </div>
+                </div>
+                
+                <div className={styles.contactItem}>
+                    
+                    <div className={styles.contactItemText}>
+                        <a href="mailto:Alex@RizzazzleRepairs.com">Alex@RizzazzleRepairs.com</a>
+                    </div>
+                </div>
+                <div className={styles.contactItemSpacer}></div>
+            </div>
             <div className={styles.contactFormCont} id="contact-form">
 
                 <ContactForm />

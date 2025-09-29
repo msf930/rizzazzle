@@ -122,6 +122,7 @@
     justify-content: center;
     opacity: 1;
     transition: opacity 0.3s ease;
+    
   }
   .homeServicesCardHoverTextLink {
     font-size: 24px;
@@ -131,7 +132,9 @@
     opacity: 0;
     text-decoration: underline;
     transition: opacity 0.5s ease;
+    cursor: pointer;
   }
+  
   .homeServicesCardIconCont {
     width: 50px;
     height: 50px;
@@ -217,7 +220,7 @@
       rotate: -45deg;
     }
     .homeServicesCard:hover .homeServicesCardHoverTextLink {
-      
+      cursor: pointer;
       opacity: 1;
     }
     @media (max-width: 768px) {
@@ -293,3 +296,22 @@
     top: 0px;
     left: 0px;
   }
+  @media (max-width: 768px) {
+    .homeServicesCardCont:hover .homeServicesCardBG {
+      top: 0px;
+      left: 0px;
+    }
+    .homeServicesCardCont:hover .homeServicesCard {
+      top: 0px;
+      left: 0px;
+    }
+    .homeServicesCardCont:active .homeServicesCardBG {
+      top: 0px;
+      left: 0px;
+    }
+    .homeServicesCardCont:active .homeServicesCard {
+      top: 0px;
+      left: 0px;
+    }
+  }
+  

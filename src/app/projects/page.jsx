@@ -6,6 +6,7 @@ import Image from "next/image";
 import Testimonials from "@/components/Testimonials";
 import ClientCarousel from "@/components/ClientCarousel";
 import ContactSection from "@/components/ContactSection";
+import ImageCarousel from "@/components/ImageCarousel";
 export default function Projects() {
     return (
         <div className={styles.projectsCont}>
@@ -50,22 +51,15 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className={styles.projectsItemImageContMobile}>
-                    <div className={styles.projectsItemGrid}>                   
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/carnegie/1.jpg" alt="carnegie1" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/carnegie/2.jpg" alt="carnegie2" fill objectFit="cover" />
-                        </div>
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/carnegie/3.jpg" alt="carnegie3" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/carnegie/4.jpg" alt="carnegie4" fill objectFit="cover" />
-                        </div>
-                    </div>
+                    <ImageCarousel 
+                        images={[
+                            { src: "/projects/carnegie/1.jpg", alt: "Carnegie project image 1" },
+                            { src: "/projects/carnegie/2.jpg", alt: "Carnegie project image 2" },
+                            { src: "/projects/carnegie/3.jpg", alt: "Carnegie project image 3" },
+                            { src: "/projects/carnegie/4.jpg", alt: "Carnegie project image 4" }
+                        ]}
+                        projectName="Carnegie at Washingtonian"
+                    />
                 </div>
             </div>
             <div className={styles.projectsItem}>
@@ -117,33 +111,17 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className={styles.projectsItemImageContMobile}>
-                    <div className={styles.projectsItemGrid}>
-                        
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/1.jpg" alt="engrain1" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/2.jpg" alt="engrain2" fill objectFit="cover" />
-                        </div>
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/3.jpg" alt="engrain3" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/4.jpg" alt="engrain4" fill objectFit="cover" />
-                        </div>
-                        
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/5.jpg" alt="engrain5" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/engrain/6.jpg" alt="engrain6" fill objectFit="cover" />
-                        </div>
-                    </div>
+                    <ImageCarousel 
+                        images={[
+                            { src: "/projects/engrain/1.jpg", alt: "Touch screen installation image 1" },
+                            { src: "/projects/engrain/2.jpg", alt: "Touch screen installation image 2" },
+                            { src: "/projects/engrain/3.jpg", alt: "Touch screen installation image 3" },
+                            { src: "/projects/engrain/4.jpg", alt: "Touch screen installation image 4" },
+                            { src: "/projects/engrain/5.jpg", alt: "Touch screen installation image 5" },
+                            { src: "/projects/engrain/6.jpg", alt: "Touch screen installation image 6" }
+                        ]}
+                        projectName="Touch Screens"
+                    />
                 </div>
             </div>
             <div className={styles.projectsItem}>
@@ -185,21 +163,14 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className={styles.projectsItemImageContMobile}>
-                    <div className={styles.projectsItemGrid}>
-                        
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/mcdonalds/1.jpg" alt="mcdonalds1" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/mcdonalds/2.jpg" alt="mcdonalds2" fill objectFit="cover" />
-                        </div>
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/mcdonalds/3.jpg" alt="mcdonalds3" fill objectFit="cover" />
-                        </div>
-                        
-                    </div>
+                    <ImageCarousel 
+                        images={[
+                            { src: "/projects/mcdonalds/1.jpg", alt: "McDonalds Denver Airport installation image 1" },
+                            { src: "/projects/mcdonalds/2.jpg", alt: "McDonalds Denver Airport installation image 2" },
+                            { src: "/projects/mcdonalds/3.jpg", alt: "McDonalds Denver Airport installation image 3" }
+                        ]}
+                        projectName="McDonalds at Denver Airport"
+                    />
                 </div>
             </div>
             <div className={styles.projectsItem}>
@@ -251,33 +222,17 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className={styles.projectsItemImageContMobile}>
-                    <div className={styles.projectsItemGrid}>
-                        
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/chimney/1.jpg" alt="chimney1" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/chimney/2.jpg" alt="chimney2" fill objectFit="cover" />
-                        </div>
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/chimney/3.jpg" alt="chimney3" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/chimney/4.jpg" alt="chimney4" fill objectFit="cover" />
-                        </div>
-                        
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/chimney/5.jpg" alt="chimney5" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/chimney/6.jpg" alt="chimney6" fill objectFit="cover" />
-                        </div>
-                    </div>
+                    <ImageCarousel 
+                        images={[
+                            { src: "/projects/chimney/1.jpg", alt: "Chimney Hill HOA cleanup image 1" },
+                            { src: "/projects/chimney/2.jpg", alt: "Chimney Hill HOA cleanup image 2" },
+                            { src: "/projects/chimney/3.jpg", alt: "Chimney Hill HOA cleanup image 3" },
+                            { src: "/projects/chimney/4.jpg", alt: "Chimney Hill HOA cleanup image 4" },
+                            { src: "/projects/chimney/5.jpg", alt: "Chimney Hill HOA cleanup image 5" },
+                            { src: "/projects/chimney/6.jpg", alt: "Chimney Hill HOA cleanup image 6" }
+                        ]}
+                        projectName="Chimney Hill HOA"
+                    />
                 </div>
             </div>
             <div className={styles.projectsItem}>
@@ -320,25 +275,15 @@ export default function Projects() {
 
                 </div>
                 <div className={styles.projectsItemImageContMobile}>
-                    <div className={styles.projectsItemGrid}>
-                        
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/umbrella/1.jpg" alt="umbrella1" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/umbrella/2.jpg" alt="umbrella2" fill objectFit="cover" />
-                        </div>
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/umbrella/3.jpg" alt="umbrella3" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/umbrella/4.jpg" alt="umbrella4" fill objectFit="cover" />
-                        </div>
-                        
-                    </div>
-
+                    <ImageCarousel 
+                        images={[
+                            { src: "/projects/umbrella/1.jpg", alt: "Umbrella Ridge HOA clubhouse cleaning image 1" },
+                            { src: "/projects/umbrella/2.jpg", alt: "Umbrella Ridge HOA clubhouse cleaning image 2" },
+                            { src: "/projects/umbrella/3.jpg", alt: "Umbrella Ridge HOA clubhouse cleaning image 3" },
+                            { src: "/projects/umbrella/4.jpg", alt: "Umbrella Ridge HOA clubhouse cleaning image 4" }
+                        ]}
+                        projectName="Umbrella Ridge HOA"
+                    />
                 </div>
             </div>
 
@@ -391,32 +336,17 @@ export default function Projects() {
                     </div>
                 </div>
                 <div className={styles.projectsItemImageContMobile}>
-                    <div className={styles.projectsItemGrid}>
-                       
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/piano/1.jpg" alt="piano1" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/piano/2.jpg" alt="piano2" fill objectFit="cover" />
-                        </div>
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/piano/3.jpg" alt="piano3" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/piano/4.jpg" alt="piano4" fill objectFit="cover" />
-                        </div>
-                        
-                    </div>
-                    <div className={styles.projectsItemGrid}>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/piano/5.jpg" alt="piano5" fill objectFit="cover" />
-                        </div>
-                        <div className={styles.projectsItemGridItem}>
-                            <Image src="/projects/piano/6.jpg" alt="piano6" fill objectFit="cover" />
-                        </div>
-                    </div>
+                    <ImageCarousel 
+                        images={[
+                            { src: "/projects/piano/1.jpg", alt: "Digital piano keyboard repair image 1" },
+                            { src: "/projects/piano/2.jpg", alt: "Digital piano keyboard repair image 2" },
+                            { src: "/projects/piano/3.jpg", alt: "Digital piano keyboard repair image 3" },
+                            { src: "/projects/piano/4.jpg", alt: "Digital piano keyboard repair image 4" },
+                            { src: "/projects/piano/5.jpg", alt: "Digital piano keyboard repair image 5" },
+                            { src: "/projects/piano/6.jpg", alt: "Digital piano keyboard repair image 6" }
+                        ]}
+                        projectName="Digital Piano Keyboards"
+                    />
                 </div>
             </div>
             <div className={styles.projectsItemSeparator} />

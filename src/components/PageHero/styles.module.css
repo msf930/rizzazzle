@@ -13,11 +13,12 @@
 }
 @media (max-width: 1000px) {
     .sectionHeroCont {
-        height: 100dvh;
+        height: 800px;
         width: 100%;
         padding-left: 20px;
         padding-right: 20px;
         margin-top: 0px;
+        margin-bottom: 100px;
     }
 }
 .sectionHeroGrid {
@@ -44,6 +45,8 @@
 }
 @media (max-width: 1000px) {
     .sectionHeroGridLeft {
+        position: relative;
+        height: 600px;
         padding-top: 70px;
         padding-bottom: 70px;
     }
@@ -81,12 +84,17 @@
     height: 100%;
     grid-area: "b";
 }
+@media (max-width: 1000px) {
+    .sectionHeroGridRight {
+        height: 200px;
+    }
+}
 
 @media (max-width: 1000px) {
     .sectionHeroGrid {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
-        height: 100dvh;
+        height: 800px;
         width: 100%;
         grid-template-areas:
             "b"
@@ -94,6 +102,6 @@
 
         padding-left: 0;
         padding-right: 0;
-        padding-top: 80px;
+        padding-top: 40px;
     }
 }

@@ -7,6 +7,25 @@
     align-items: center;
     justify-content: center;
 }
+.contactItemContMobile {
+    display: none;
+}
+@media (max-width: 768px) {
+    .contactItemCont {
+        display: none;
+    }
+    .contactItemContMobile {
+        display: flex;
+        width: 100%;
+        height: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 30px;
+    }
+}
 .contactItem {
     margin-top: 70px;
     width: 100%;
@@ -26,6 +45,7 @@
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
         gap: 20px;
+        margin-top: 0px;
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -127,7 +147,7 @@
 
 @media (max-width: 768px) {
     .contactItemSpacer {
-        height: 0px;
+        height: 30px;
     }
 }
 

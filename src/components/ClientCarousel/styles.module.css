@@ -1,6 +1,6 @@
 .clientCarousel {
     width: 100%;
-    height: 40dvh;
+    height: 300px;
     position: relative;
     display: flex;
     flex-direction: column;
