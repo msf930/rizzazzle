@@ -1,0 +1,136 @@
+export default function sitemap() {
+    return [
+      {
+        url: 'https://rizzazzlerepairs.com',
+        lastModified: new Date(),
+        changeFrequency: 'yearly',
+        priority: 1,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/services',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/about',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/projects',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/security',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/locations',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/contact',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/denver',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/boulder',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/estes-park',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/aurora',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/golden',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/fort-collins',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/arvada',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/broomfield',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/castle-rock',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/lakewood',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/littleton',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/colorado-springs',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/centennial',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/evergreen',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+      {
+        url: 'https://rizzazzlerepairs.com/location/out-of-state',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.5,
+      },
+    ]
+  }
