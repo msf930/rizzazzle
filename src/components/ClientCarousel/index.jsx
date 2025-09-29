@@ -28,7 +28,7 @@ export default function ClientCarousel() {
                                     alt={`Client ${index + 1}`}
                                     height={100}
                                     width={200}
-                                    style={{objectFit: "cover"}} 
+                                    style={{objectFit: "contain"}} 
                                     className={styles.logoImage}
                                 />
                             </div>
@@ -41,7 +41,7 @@ export default function ClientCarousel() {
                                     alt={`Client ${index + 1}`}
                                     height={100}
                                     width={200}
-                                    style={{objectFit: "cover"}} 
+                                    style={{objectFit: "contain"}} 
                                     className={styles.logoImage}
                                 />
                             </div>
@@ -58,7 +58,7 @@ export default function ClientCarousel() {
                                     alt={`Client ${index + 1}`}
                                     height={100}
                                     width={200}
-                                    style={{objectFit: "cover"}} 
+                                    style={{objectFit: "contain"}} 
                                     className={styles.logoImage}
                                 />
                             </div>
@@ -71,7 +71,7 @@ export default function ClientCarousel() {
                                     alt={`Client ${index + 1}`}
                                     height={100}
                                     width={200}
-                                    style={{objectFit: "cover"}} 
+                                    style={{objectFit: "contain"}} 
                                     className={styles.logoImage}
                                 />
                             </div>
