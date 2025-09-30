@@ -17,7 +17,7 @@ export default function LocationSection() {
                     </div>
                 </div>
                 <div className={styles.aboutItemText}>
-                    <h2>Audio Visual Installation and Repair For Denver and Beyond</h2>
+                    <h2>Audio Visual Installation and Repair for Denver and Beyond</h2>
                 </div>
             </div>
             <div className={styles.aboutLocationCont}>

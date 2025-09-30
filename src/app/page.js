@@ -19,7 +19,7 @@ export default function Home() {
         <div className="homeHeroTextCont">
           <h1>Rizzazzle Repairs</h1>
           <Image src="/RRLogo.png" alt="homeHero" width={200} height={200} />
-          <p>Providing AV Installations, electronic repairs, and general maintenance to the greater Denver area and beyond</p>
+          <p>Providing AV Installations, electronic repairs, and general maintenance to the greater Denver area and beyond&#33;</p>
           <ContactButton />
         </div>
       </div>

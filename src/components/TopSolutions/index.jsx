@@ -53,7 +53,7 @@ export default function TopSolutions() {
                 <div className={styles.homeServicesCardIcon3}></div>
               </div>
               <div className={styles.homeServicesCardHoverText}>
-                <Link href="/services#repairs-and-troubleshooting" className={styles.homeServicesCardHoverTextLink}>See How It Works</Link>
+                <Link href="/services#repairs-and-troubleshooting" className={styles.homeServicesCardHoverTextLink}>See How it Works</Link>
               </div>
             </div>
             <h3>Repairs and Troubleshooting</h3>

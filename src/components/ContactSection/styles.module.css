@@ -3,6 +3,8 @@
     padding-bottom: 70px;
     width: 100%;
     height: 60dvh;
+    min-height: 40px;
+    max-height: 500px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -55,6 +57,7 @@
 .contactSectionLeftText{
     width: 60%;
     height: 80%;
+    min-height: 300px;
     position: relative;
     display: flex;
     flex-direction: column;

@@ -25,7 +25,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className={styles.projectsItemText}>
-                        <p>Commercial installation of 6x 55″ touch screens in custom kiosks, 1x 55″ touch screen on standard wall, and 1x 65″ touch screen in custom table</p>
+                        <p>Commercial installation of six 55″ touch screens in custom kiosks, one 55″ touch screen on standard wall, and one 65″ touch screen in custom table.</p>
                     </div>
                 </div>
                 <div className={styles.projectsItemImageCont}>
@@ -75,7 +75,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className={styles.projectsItemText}>
-                        <p>A small sampling of the dozens of large format touch screen installations we&apos;ve accomplished. Each screen generally weighing 80lbs+ installed seamlessly to finish the look of any space</p>
+                        <p>A small sampling of the dozens of large format touch screen installations we&apos;ve accomplished. Each screen generally weighing 80lbs+ installed seamlessly to finish the look of any space.</p>
                     </div>
                 </div>
                 <div className={styles.projectsItemImageCont}>
@@ -137,7 +137,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className={styles.projectsItemText}>
-                        <p>Commercial installation of 5x 49″ menu display boards at McDonalds in Concourse A of Denver International Airport</p>
+                        <p>Commercial installation of five 49″ menu display boards at McDonalds in Concourse A of Denver International Airport.</p>
                     </div>
                 </div>
                 <div className={styles.projectsItemImageCont}>
@@ -186,7 +186,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className={styles.projectsItemText}>
-                        <p>Regular cleanup of 8x community trash corrals and surrounding area. Maintaining the esteemed look of the community on a regular basis</p>
+                        <p>Regular cleanup of eight community trash corrals and surrounding area. Maintaining the esteemed look of the community on a regular basis.</p>
                     </div>
                 </div>
                 <div className={styles.projectsItemImageCont}>
@@ -248,7 +248,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className={styles.projectsItemText}>
-                        <p>Regular cleanup of clubhouse and surrounding pool area. Keeping the community spaces sparkling</p>
+                        <p>Regular cleanup of clubhouse and surrounding pool area. Keeping the community spaces sparkling.</p>
                     </div>
                 </div>
                 <div className={styles.projectsItemImageCont}>
@@ -300,7 +300,7 @@ export default function Projects() {
                         </div>
                     </div>
                     <div className={styles.projectsItemText}>
-                        <p>A small sampling of the dozens of digital piano keyboards we&apos;ve fixed. Everything from dead notes, to sticky keys, to malfunctioning soundboards</p>
+                        <p>A small sampling of the dozens of digital piano keyboards we&apos;ve fixed. Everything from dead notes, to sticky keys, to malfunctioning soundboards.</p>
                     </div>
                 </div>
                 <div className={styles.projectsItemImageCont}>

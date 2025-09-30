@@ -21,7 +21,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className={styles.aboutItemText}>
-                    <p>When it comes to audio visual installation services, Rizzazzle Repairs is your reliable partner. Our team is committed to delivering top-notch solutions, ensuring your service requierments are met with precision and expertise. We take pride in our work and strive to exceed your expectations.</p>
+                    <p>When it comes to audio visual installation services, Rizzazzle Repairs is your reliable partner. Our team is committed to delivering top-notch solutions, ensuring your service requirements are met with precision and expertise. We take pride in our work and strive to exceed your expectations.</p>
                 </div>
             </div>
             <div className={styles.aboutValueItemCont}>

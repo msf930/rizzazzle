@@ -131,7 +131,7 @@
   height: 100%;
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   gap: 20px;
   align-items: center;
   justify-content: center;
@@ -209,6 +209,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding-left: 40px;
+  gap: 20px;
 }
 
 @media (max-width: 768px) {
@@ -222,7 +223,7 @@
   font-weight: 600;
   color: #000000;
   text-align: left;
-  width: 350px;
+  width: 80%;
 }
 
 .homeExpertiseTopRight p {
@@ -230,7 +231,20 @@
   font-weight: 400;
   color: #000000;
   text-align: left;
-  width: 350px;
+  width: 80%;
+}
+
+@media (max-width: 768px) {
+  .homeExpertiseTopRight h3 {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .homeExpertiseTopRight p {
+    width: 100%;
+  }
 }
 
 .homeExpertiseCardsGrid {
